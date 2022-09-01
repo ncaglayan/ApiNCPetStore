@@ -1,0 +1,106 @@
+﻿{
+  "petStoreService-baseUrl": "https://petstore.swagger.io/v2/",
+
+  "orderId": 1,
+
+  "status": {
+
+    "val1": "sold",
+    "val2": "available",
+    "val3": "pending"
+  },
+
+  "id": 2,
+
+  "invalidId": 3,
+
+  "username": "string",
+
+  "addPet": {
+    "id": 155,
+    "category": {
+      "id": 1,
+      "name": "duman"
+    },
+    "name": "duman",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Tag"
+      }
+    ],
+    "status": "available"
+  },
+
+  "ModifyPet": {
+    "id": 2,
+    "category": {
+      "id": 1,
+      "name": "lessie"
+    },
+    "name": "hero",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Tag"
+      }
+    ],
+    "status": "available"
+  },
+
+  "PlaceOrderPet": {
+    "id": 90,
+    "petId": 0,
+    "quantity": 0,
+    "shipDate": "2022-01-13T12:17:21.367Z",
+    "status": "placed",
+    "complete": true
+  },
+
+  "username1": "string",
+  "password": "string",
+
+  //Put_ModifyUserByUserName
+  "put_responseBody": {
+    "id": 0,
+    "username": "superdog",
+    "firstName": "Crypto",
+    "lastName": "The Dog",
+    "email": "string",
+    "password": "superdog",
+    "phone": "string",
+    "userStatus": 0
+  },
+
+  "post_responseBody": [
+    {
+      "id": 0,
+      "username": "Zezinho",
+      "firstName": "Zeze",
+      "lastName": "Di Camargo",
+      "email": "string",
+      "password": "luciano",
+      "phone": "string",
+      "userStatus": 0
+    }
+  ],
+
+  "post_responseBody1": {
+    "id": 0,
+    "username": "Zezinho",
+    "firstName": "Zeze",
+    "lastName": "Di Camargo",
+    "email": "string",
+    "password": "luciano",
+    "phone": "string",
+    "userStatus": 0
+  },
+
+  "put_username": "string"
+}
